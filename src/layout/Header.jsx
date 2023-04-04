@@ -4,9 +4,9 @@ import Nav from "../components/Nav";
 export default function Header() {
 	return (
 		<header className="headerWrap">
-			<figure className="headerWrap__fig">
+			<a href="/">
 				<img className="logo" src={logo} alt="logo de l'agence kasa" />
-			</figure>
+			</a>
 			<Nav className="nav-header" />
 		</header>
 	);

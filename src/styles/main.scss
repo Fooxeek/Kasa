@@ -3,9 +3,13 @@
 @import "./Base/Base";
 @import "./Layout/Header";
 @import "./Layout/Footer";
+@import "./Pages/Error404";
 @import "./Composants/Nav";
-@import "./Composants/Error404";
 @import "./composants/Banner";
 @import "./composants/AboutBanner";
 @import "./composants/Card";
-@import "./composants/Collapse"
+@import "./composants/Collapse";
+@import "./composants/Host";
+@import "./composants/Rate";
+@import "./composants/Slider";
+@import "./composants/Tag";
