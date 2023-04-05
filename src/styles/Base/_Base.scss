@@ -5,7 +5,18 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+html {
+	height: 100%;
+}
+
+
+#root, #root > div {
+	height: inherit;
+}
+
+
 body {
+	height: 100%;
 	@include body-position;
 
 
@@ -21,6 +32,13 @@ main {
 	@media screen and (min-width: $breakpoint-desktop) {
 		margin: 0 100px;
 	}
+}
+
+.App {
+	height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
 }
 
 .redFont {
