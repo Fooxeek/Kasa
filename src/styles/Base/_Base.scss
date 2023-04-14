@@ -25,7 +25,7 @@ body {
 		height: 100%;
 	}
 
-	@media screen and (max-width: 375px) {
+	@media screen and (max-width: $breakpoint-mobile) {
 		min-width: unset;
 	}
 
