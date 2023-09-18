@@ -1,6 +1,5 @@
 {
   "name": "p7_kasa",
-  "homepage": "http://foxeek.fr/openclasrooms/P7",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
